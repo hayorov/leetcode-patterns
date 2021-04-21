@@ -2,10 +2,9 @@
 
 from typing import List
 
+from functools import reduce
+
 
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
-        result = 0
-        for number in nums:
-            result = result ^ number  # XOR
-        return result
+        return reduce(lambda result, num: result ^ num, nums)  # XOR bitwise
