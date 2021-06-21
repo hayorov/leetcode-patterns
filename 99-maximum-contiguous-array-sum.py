@@ -2,6 +2,8 @@
 You are given an array of integers (both positive and negative). Find the continuous sequence with the largest sum. Return the sum.
         a. Input: 2, -8, 3, -2, 4, -10
         b. 5 (3, -2, 4)
+
+or https://leetcode.com/problems/maximum-subarray/
 """
 
 from sys import maxsize
